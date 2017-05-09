@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Created>2006-09-16T00:00:00Z</Created>
+  <LastSaved>2017-02-24T03:14:11Z</LastSaved>
+  <Version>15.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <RemovePersonalInformation/>
+  <PixelsPerInch>96</PixelsPerInch>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>18340</WindowHeight>
+  <WindowWidth>29260</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>460</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="44" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="15">
+   <Column ss:Width="569"/>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Ngày nhận xe</Data></Cell>
+    <Cell><Data ss:Type="String">Pick-up date</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Ngày trả xe</Data></Cell>
+    <Cell><Data ss:Type="String">Drop-off date</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Nơi nhận xe</Data></Cell>
+    <Cell><Data ss:Type="String">Pick-up location</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Nơi trả xe</Data></Cell>
+    <Cell><Data ss:Type="String">Drop-off location</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Giờ nhận</Data></Cell>
+    <Cell><Data ss:Type="String">Pick-up time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Giờ trả</Data></Cell>
+    <Cell><Data ss:Type="String">Drop-off time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Ngày nhận</Data></Cell>
+    <Cell><Data ss:Type="String">Pick-up date</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Ngày trả</Data></Cell>
+    <Cell><Data ss:Type="String">Drop-off date</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Hãy thêm địa điểm bạn muốn nhận xe</Data></Cell>
+    <Cell><Data ss:Type="String">Add your preferred pick-up location</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Hãy nhập địa điểm bạn muốn trả xe</Data></Cell>
+    <Cell><Data ss:Type="String">Enter your preferred drop-off location</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Thêm điểm trả khách</Data></Cell>
+    <Cell><Data ss:Type="String">Add drop-off points</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Hãy điền điểm trả về đầu tiên</Data></Cell>
+    <Cell><Data ss:Type="String">Add first drop-off point</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Không có mạng!</Data></Cell>
+    <Cell><Data ss:Type="String">No internet connection</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Bạn chưa có một lộ trình nào, hãy nhập ít nhấp 2 điểm</Data></Cell>
+    <Cell><Data ss:Type="String">You haven't had any routes, please enter at least 2 locations</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Hãy nhập điểm dón đầu tiên</Data></Cell>
+    <Cell><Data ss:Type="String">Please enter the first pick-up point</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Không thể đặt 2 điểm đón liên tiếp cùng 1 vị trí.</Data></Cell>
+    <Cell><Data ss:Type="String">Unable to set 2 consecutive pick-up points at the same location</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Tạo gói đặt giá thành công</Data></Cell>
+    <Cell><Data ss:Type="String">Bidding package successfully created</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Xem vị trí của khách hàng</Data></Cell>
+    <Cell><Data ss:Type="String">View customer's location</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Gọi điện thoại cho khách hàng</Data></Cell>
+    <Cell><Data ss:Type="String">Phone customer </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Điểm trả về tiếp theo</Data></Cell>
+    <Cell><Data ss:Type="String">Next drop-off point</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Hãy điền điểm đến trước đó</Data></Cell>
+    <Cell><Data ss:Type="String">Please enter the previous destination</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Hãy điền điểm trả khách trước đó</Data></Cell>
+    <Cell><Data ss:Type="String">Please enter the previous drop-off point</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Hãy điền loại xe bạn muốn đi</Data></Cell>
+    <Cell><Data ss:Type="String">Please enter your preferred car type</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Chuyến đi đã được hủy thành công</Data></Cell>
+    <Cell><Data ss:Type="String">The trip is successfully cancelled</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Bạn có chắc chắn hủy chuyến này không ?</Data></Cell>
+    <Cell><Data ss:Type="String">Are you sure you want to cancel this trip?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Thông tin chuyến đi mới</Data></Cell>
+    <Cell><Data ss:Type="String">New trip</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Số điện thoại đã được sử dụng</Data></Cell>
+    <Cell><Data ss:Type="String">This phone number has been used</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">ĐẶT NHIỀU XE</Data></Cell>
+    <Cell><Data ss:Type="String">Book many cars</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Tài xế đang trên đường đến đón bạn. Bạn có muốn xem vị trí của tài xế ?</Data></Cell>
+    <Cell><Data ss:Type="String">The driver is on the way to pick you up. Do you want to view driver's location</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Gọi tài xế</Data></Cell>
+    <Cell><Data ss:Type="String">Phone driver</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Hủy chuyến</Data></Cell>
+    <Cell><Data ss:Type="String">Cancel trip</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Cập nhật số điện thoại</Data></Cell>
+    <Cell><Data ss:Type="String">Update phone number</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Bạn chưa chọn đủ xe cho chuyến đi.</Data></Cell>
+    <Cell><Data ss:Type="String">You haven't selected enough cars for the trip</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Giá chuyến đi</Data></Cell>
+    <Cell><Data ss:Type="String">Trip price</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Thông tin chuyến đi</Data></Cell>
+    <Cell><Data ss:Type="String">Trip information</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Có xe phù hợp với yêu cầu của bạn</Data></Cell>
+    <Cell><Data ss:Type="String">There is a suitable car for you</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Tài xế đã hủy chuyến đi của bạn</Data></Cell>
+    <Cell><Data ss:Type="String">The driver has cancelled you trip</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Điểm trả khách</Data></Cell>
+    <Cell><Data ss:Type="String">Drop-off location</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Phí Gonow</Data></Cell>
+    <Cell><Data ss:Type="String">Gonow fee</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Vì bạn không nhập điểm trả về nên chuyến đi sẽ là chuyến 2 chiều và trả về điểm đón ban đầu</Data></Cell>
+    <Cell><Data ss:Type="String">As you didn't enter the drop-off location, the trip would be both-way and you will be dropped off at the first pick-up point </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Chuyến sắp đi</Data></Cell>
+    <Cell><Data ss:Type="String">Upcoming trip</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Thao tác quá nhanh</Data></Cell>
+    <Cell><Data ss:Type="String">Your action are too fast</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Xe chưa có tài xế.</Data></Cell>
+    <Cell><Data ss:Type="String">This car hasn't had any drivers</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Chưa nhập mã xác nhận</Data></Cell>
+    <Cell><Data ss:Type="String">You haven't entered confirmation code</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

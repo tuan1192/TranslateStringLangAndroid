@@ -1,0 +1,1985 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Created>2006-09-16T00:00:00Z</Created>
+  <LastSaved>2017-02-23T04:12:17Z</LastSaved>
+  <Version>15.0</Version>
+</DocumentProperties>
+<OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <RemovePersonalInformation/>
+  <PixelsPerInch>96</PixelsPerInch>
+</OfficeDocumentSettings>
+<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>19640</WindowHeight>
+  <WindowWidth>36860</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>460</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+</ExcelWorkbook>
+<Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+ </Style>
+ <Style ss:ID="s16">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+ </Style>
+ <Style ss:ID="s17">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+ </Style>
+ <Style ss:ID="s18">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+   <Interior/>
+ </Style>
+ <Style ss:ID="s19">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+   <Interior/>
+ </Style>
+ <Style ss:ID="s20">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#DD0806"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#DD0806"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+ </Style>
+ <Style ss:ID="s24">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#000000"/>
+    <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+ </Style>
+ <Style ss:ID="s26">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#DD0806"/>
+    <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+</Styles>
+<Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="454" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s16" ss:DefaultColumnWidth="53"
+   ss:DefaultRowHeight="14">
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="31"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="232"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="158"/>
+    <Row>
+      <Cell><Data ss:Type="String">STT</Data></Cell>
+      <Cell><Data ss:Type="String">Nội dung</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">1</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Số điện thoại không hợp lệ</Data></Cell>
+      <Cell><Data ss:Type="String">Invalid phone number</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">2</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Mật khẩu chưa hợp lệ</Data></Cell>
+      <Cell><Data ss:Type="String">Invalid password</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">3</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Đang tải...</Data></Cell>
+      <Cell><Data ss:Type="String">Loading</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">4</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Xin đợi trong giây lát....</Data></Cell>
+      <Cell><Data ss:Type="String">Please wait a moment</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">5</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Bạn cần cho phép ứng dụng quyền xem thông tin Google Account để đăng nhập bằng Google</Data></Cell>
+      <Cell><Data ss:Type="String">Allowing the application to access your Google account information to log in</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">6</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Bạn đã từ chối ứng dụng quyền xem thông tin Google Account, không thể đăng nhập bằng Google</Data></Cell>
+      <Cell><Data ss:Type="String">You have denied the application to access your Google information, unable to log in with Google</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">7</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Tên hiển thị trống</Data></Cell>
+      <Cell><Data ss:Type="String">Display name is empty</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">8</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Tên đăng nhập trống</Data></Cell>
+      <Cell><Data ss:Type="String">The username field is empty</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">9</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Mật khẩu cũ trống</Data></Cell>
+      <Cell><Data ss:Type="String">Old password is empty</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">10</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Mật khẩu mới trống</Data></Cell>
+      <Cell><Data ss:Type="String">New password is empty</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">11</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Mã xác nhận trống</Data></Cell>
+      <Cell><Data ss:Type="String">Confirmation code is empty</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">12</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Mật khẩu xác nhận chưa trùng nhau</Data></Cell>
+      <Cell><Data ss:Type="String">Password confirmation does not match password</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">13</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Chọn ảnh</Data></Cell>
+      <Cell><Data ss:Type="String">Choose a photo</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">14</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Chụp ảnh</Data></Cell>
+      <Cell><Data ss:Type="String">Take a photo</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">15</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Lấy ảnh từ thư viện</Data></Cell>
+      <Cell><Data ss:Type="String">Choose a photo from library</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">16</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Mật khẩu xác thực trống</Data></Cell>
+      <Cell><Data ss:Type="String">Confirmation password is empty</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">17</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Mất kết nối với máy chủ. Xin hãy kiểm tra lại mạng!</Data></Cell>
+      <Cell><Data ss:Type="String">Unable to connect to the server. Please check your network connecton</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">18</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Thay đổi mật khẩu thành công</Data></Cell>
+      <Cell><Data ss:Type="String">Your password has been reset successfully</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">19</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Hệ thống đang gửi mã xác nhận đến điện thoại/ Email của bạn.</Data></Cell>
+      <Cell><Data ss:Type="String">Sending confirmation code to your phone/email</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">20</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Cập nhật dữ liệu thành công</Data></Cell>
+      <Cell><Data ss:Type="String">Data updated successfully</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">21</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Đặt xe</Data></Cell>
+      <Cell><Data ss:Type="String">Book a car</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">22</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Tìm xe</Data></Cell>
+      <Cell><Data ss:Type="String">Find car</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">23</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Tìm khách</Data></Cell>
+      <Cell><Data ss:Type="String">Find customer</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">24</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Thông báo</Data></Cell>
+      <Cell><Data ss:Type="String">Notice</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">25</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Thêm</Data></Cell>
+      <Cell><Data ss:Type="String">More</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">26</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Đặt xe trực tuyến</Data></Cell>
+      <Cell><Data ss:Type="String">Online booking</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">27</Data></Cell>
+      <Cell ss:StyleID="s19"><Data ss:Type="String">KHÁCH TÌM XE</Data></Cell>
+      <Cell><Data ss:Type="String">Find a car</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">28</Data></Cell>
+      <Cell ss:StyleID="s19"><Data ss:Type="String">XE TÌM KHÁCH</Data></Cell>
+      <Cell><Data ss:Type="String">Find a customer</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">29</Data></Cell>
+      <Cell ss:StyleID="s19"><Data ss:Type="String">Sàn giao dịch vận tải hành khách.</Data></Cell>
+      <Cell><Data ss:Type="String">Transport exchange</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">30</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">ĐĂNG NHẬP</Data></Cell>
+      <Cell><Data ss:Type="String">Log in</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">31</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">ĐĂNG KÝ</Data></Cell>
+      <Cell><Data ss:Type="String">Sign up</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">32</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">QUÊN MẬT KHẨU?</Data></Cell>
+      <Cell><Data ss:Type="String">Forgot password?</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">33</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Quên mật khẩu</Data></Cell>
+      <Cell><Data ss:Type="String">Forgot password?</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">34</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Tên đăng nhập</Data></Cell>
+      <Cell><Data ss:Type="String">User name</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">35</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Bạn đã có tài khoản chưa?</Data></Cell>
+      <Cell><Data ss:Type="String">Do you have an account?</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">36</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Đăng nhập ngay</Data></Cell>
+      <Cell><Data ss:Type="String">Log in now</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">37</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Đăng ký tài khoản</Data></Cell>
+      <Cell><Data ss:Type="String">Sign up for an account ( Create a new account)</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">38</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">VUI LÒNG ĐĂNG NHẬP \nĐỂ SỬ DỤNG CHỨC NĂNG NÀY</Data></Cell>
+      <Cell><Data ss:Type="String">Please Login to use this feature)</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">39</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Tìm đơn vị vận tải</Data></Cell>
+      <Cell ss:StyleID="s18"><Data ss:Type="String">Find a transport agency</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">40</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Số lượng:</Data></Cell>
+      <Cell><Data ss:Type="String">Number</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">41</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Số điện thoại:</Data></Cell>
+      <Cell><Data ss:Type="String">Phone number</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">42</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">LỘ TRÌNH</Data></Cell>
+      <Cell><Data ss:Type="String">Route</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">43</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Điểm đón đầu tiên</Data></Cell>
+      <Cell><Data ss:Type="String">First pick-up point</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">44</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Điểm đón tiếp theo</Data></Cell>
+      <Cell><Data ss:Type="String">Next pick-up point</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">45</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Thêm địa điểm</Data></Cell>
+      <Cell><Data ss:Type="String">Add more pick-up points</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">46</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Điểm đón cuối cùng</Data></Cell>
+      <Cell><Data ss:Type="String">Final destination</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">47</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Trả về điểm đầu</Data></Cell>
+      <Cell><Data ss:Type="String">Return to the first pick-up point</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">48</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Xem lộ trình</Data></Cell>
+      <Cell><Data ss:Type="String">View route</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">49</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Ngày khởi hành</Data></Cell>
+      <Cell><Data ss:Type="String">Departure date</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">50</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Thời <Font html:Color="#DD0806"
+       xmlns="http://www.w3.org/TR/REC-html40">gian</Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40"> kết thúc</Font></Data></Cell>
+       <Cell><Data ss:Type="String">Return time</Data></Cell>
+       <Cell><Data ss:Type="String">Đây là thời gian khách quay về ạ, nếu thế thì return date, còn nếu ngày khách đếm địa điểm thì là arrival date</Data></Cell>
+     </Row>
+     <Row>
+      <Cell><Data ss:Type="Number">51</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">ƯỚC TÍNH GIÁ</Data></Cell>
+      <Cell><Data ss:Type="String">Estimate price</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">52</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Số ghế</Data></Cell>
+      <Cell><Data ss:Type="String">Number of seats</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">53</Data></Cell>
+      <Cell ss:StyleID="s25"><Data ss:Type="String">Số ngày thuê</Data></Cell>
+      <Cell><Data ss:Type="String">rental period</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">54</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Giá dự kiến</Data></Cell>
+      <Cell><Data ss:Type="String">Planned price</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">55</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Thông tin người đặt xe</Data></Cell>
+      <Cell><Data ss:Type="String">Customer information</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">56</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Tên hiển thị</Data></Cell>
+      <Cell><Data ss:Type="String">Display name</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">57</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Tên tài khoản</Data></Cell>
+      <Cell><Data ss:Type="String">Username</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">58</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Số điện thoại</Data></Cell>
+      <Cell><Data ss:Type="String">Phone number</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">59</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Nhập lại mật khẩu</Data></Cell>
+      <Cell><Data ss:Type="String">Re-enter the password</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">60</Data></Cell>
+      <Cell ss:StyleID="s25"><Data ss:Type="String">Chọn vai trò đăng ký</Data></Cell>
+      <Cell><Data ss:Type="String">Select a role to register</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">61</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Đơn vị vận tải</Data></Cell>
+      <Cell><Data ss:Type="String">Transport agency</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">62</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Khách Hàng</Data></Cell>
+      <Cell><Data ss:Type="String">Customers</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">63</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">XÁC THỰC</Data></Cell>
+      <Cell><Data ss:Type="String">Confirm</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">64</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Mã xác thực</Data></Cell>
+      <Cell><Data ss:Type="String">Confirmation code  </Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">65</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Xác thực tài khoản</Data></Cell>
+      <Cell><Data ss:Type="String">Verify the account</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">66</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Tham gia</Data></Cell>
+      <Cell><Data ss:Type="String">Join us</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">67</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Gửi lại</Data></Cell>
+      <Cell><Data ss:Type="String">Resend</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">68</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Nhập mã xác thực</Data></Cell>
+      <Cell><Data ss:Type="String">Enter the confirmation code</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">69</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Bạn có thể yêu cầu gửi lại mã xác nhận sau</Data></Cell>
+      <Cell><Data ss:Type="String">Request to send another confirmation code</Data></Cell>
+    </Row>
+    <Row>
+      <Cell><Data ss:Type="Number">70</Data></Cell>
+      <Cell ss:StyleID="s17"><Data ss:Type="String">Gửi đi</Data></Cell>
+      <Cell><Data ss:Type="String">Send </Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bớt điểm đón</Data></Cell>
+      <Cell><Data ss:Type="String">Less pick-up location</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thông tin điểm đón</Data></Cell>
+      <Cell><Data ss:Type="String">Pick-up location information</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chọn loại xe</Data></Cell>
+      <Cell><Data ss:Type="String">Car type</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">4 chỗ</Data></Cell>
+      <Cell><Data ss:Type="String">4 seats</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">7 chỗ</Data></Cell>
+      <Cell><Data ss:Type="String">7 seats</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">10 chỗ</Data></Cell>
+      <Cell><Data ss:Type="String">10 seats</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">16 chỗ</Data></Cell>
+      <Cell><Data ss:Type="String">16 seats</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">29 chỗ</Data></Cell>
+      <Cell><Data ss:Type="String">29 seats</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">35 chỗ</Data></Cell>
+      <Cell><Data ss:Type="String">35 seats</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">45 chỗ</Data></Cell>
+      <Cell><Data ss:Type="String">45 seats</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Tên người đặt xe</Data></Cell>
+      <Cell><Data ss:Type="String">Booking name</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Điện thoại liên hệ</Data></Cell>
+      <Cell><Data ss:Type="String">Phone number</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Email liên hệ</Data></Cell>
+      <Cell><Data ss:Type="String">Email</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thông tin đặt xe</Data></Cell>
+      <Cell><Data ss:Type="String">Booking information</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đang xử lý</Data></Cell>
+      <Cell><Data ss:Type="String">Processing</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Gói chào giá</Data></Cell>
+      <Cell><Data ss:Type="String">Bidding package</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s21"><Data ss:Type="String">Đơn vị chào giá</Data></Cell>
+      <Cell><Data ss:Type="String">Bidder </Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s24"><Data ss:Type="String">Ngày bỏ giá</Data></Cell>
+      <Cell><Data ss:Type="String">Offer date</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đơn giá</Data></Cell>
+      <Cell><Data ss:Type="String">Prices</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Kết quả</Data></Cell>
+      <Cell><Data ss:Type="String">Results</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Ngày đến</Data></Cell>
+      <Cell><Data ss:Type="String">Arrival date</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Ngày đi</Data></Cell>
+      <Cell><Data ss:Type="String">Departure date</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Giờ đi</Data></Cell>
+      <Cell><Data ss:Type="String">Arrival time </Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Giờ đến</Data></Cell>
+      <Cell><Data ss:Type="String">Departure time</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy nhập điểm đón đầu tiên</Data></Cell>
+      <Cell><Data ss:Type="String">Please enter the first pick-up point</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy nhập điểm đón cuối cùng</Data></Cell>
+      <Cell><Data ss:Type="String">Please enter the destination</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy chọn ngày bạn muốn khởi hành</Data></Cell>
+      <Cell><Data ss:Type="String">Please choose your departure date</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy chọn ngày kết thúc chuyến đi</Data></Cell>
+      <Cell><Data ss:Type="String">Please choose your return date</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy chọn giờ bạn muốn khởi hành</Data></Cell>
+      <Cell><Data ss:Type="String">Please choose your departure time</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy chọn giờ bạn muốn đến nơi</Data></Cell>
+      <Cell><Data ss:Type="String">Please choose your expected arrival time</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy chọn số ghế của xe bạn muốn đi</Data></Cell>
+      <Cell><Data ss:Type="String">Please choose number of seats</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thời gian khởi hành phải trước thời gian kết thúc</Data></Cell>
+      <Cell><Data ss:Type="String">Departure time must be before arrival time</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chờ chút</Data></Cell>
+      <Cell><Data ss:Type="String">Please wait a moment </Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">TÀI XẾ</Data></Cell>
+      <Cell><Data ss:Type="String">Driver</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">TÀI KHOẢN</Data></Cell>
+      <Cell><Data ss:Type="String">Account</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thông tin cá nhân</Data></Cell>
+      <Cell><Data ss:Type="String">Personal information</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">KHÁC</Data></Cell>
+      <Cell><Data ss:Type="String">Others</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thay đổi mật khẩu</Data></Cell>
+      <Cell><Data ss:Type="String">Change password</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Các chuyến đi mới</Data></Cell>
+      <Cell><Data ss:Type="String">New trips</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Lịch chạy xe của tôi</Data></Cell>
+      <Cell><Data ss:Type="String">My schedule</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Lịch sử chạy xe</Data></Cell>
+      <Cell><Data ss:Type="String">History</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đăng xuất</Data></Cell>
+      <Cell><Data ss:Type="String">Log out  </Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Quy chế hoạt động</Data></Cell>
+      <Cell><Data ss:Type="String">Operation regulations</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Giới thiệu về chúng tôi</Data></Cell>
+      <Cell><Data ss:Type="String">About us</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Liên hệ</Data></Cell>
+      <Cell><Data ss:Type="String">Contact</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s25"><Data ss:Type="String">Gói đặt giá</Data></Cell>
+      <Cell><Data ss:Type="String">Bidding package</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s21"><Data ss:Type="String">Gói của tôi</Data></Cell>
+      <Cell><Data ss:Type="String">My package</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">ĐẶT VÉ MÁY BAY</Data></Cell>
+      <Cell><Data ss:Type="String">Book a flight</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">ĐẶT VÉ TÀU HỎA</Data></Cell>
+      <Cell><Data ss:Type="String">Book a train</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">ĐẶT Ô TÔ TRỰC TUYẾN</Data></Cell>
+      <Cell><Data ss:Type="String">Book a car online</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s20"><Data ss:Type="String">Gói đang đặt giá</Data></Cell>
+      <Cell><Data ss:Type="String">The package is being bid</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đang đặt giá</Data></Cell>
+      <Cell><Data ss:Type="String">Bidding</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Khởi hành</Data></Cell>
+      <Cell><Data ss:Type="String">Depart</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Kết thúc</Data></Cell>
+      <Cell><Data ss:Type="String">Return</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Điểm đầu</Data></Cell>
+      <Cell><Data ss:Type="String">Starting location  </Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đã thanh toán</Data></Cell>
+      <Cell><Data ss:Type="String">Payment confirmed</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hạng lái xe</Data></Cell>
+      <Cell><Data ss:Type="String">License class</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Ngày hết hạn</Data></Cell>
+      <Cell><Data ss:Type="String">Expiration date</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Lộ trình</Data></Cell>
+      <Cell><Data ss:Type="String">Route</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Điểm cuối</Data></Cell>
+      <Cell><Data ss:Type="String">Final destination</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thời gian</Data></Cell>
+      <Cell><Data ss:Type="String">Time</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hợp đồng theo năm</Data></Cell>
+      <Cell><Data ss:Type="String">Yearly contract</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Ngày bắt đầu</Data></Cell>
+      <Cell><Data ss:Type="String">Starting date</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Ngày kết thúc</Data></Cell>
+      <Cell><Data ss:Type="String">Ending date</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Các thông số</Data></Cell>
+      <Cell><Data ss:Type="String">Specifications</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Số chỗ</Data></Cell>
+      <Cell><Data ss:Type="String">Number of seats</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thông báo</Data></Cell>
+      <Cell><Data ss:Type="String">Notice</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn có chắc muốn thoát</Data></Cell>
+      <Cell><Data ss:Type="String">Are you sure you want to log out?</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy đăng nhập để sử dụng chức năng này</Data></Cell>
+      <Cell><Data ss:Type="String">Please login  to use this feature</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thông báo</Data></Cell>
+      <Cell><Data ss:Type="String">Notice</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Số chỗ</Data></Cell>
+      <Cell><Data ss:Type="String">Number of seats</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Công ty</Data></Cell>
+      <Cell><Data ss:Type="String">Company</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Địa chỉ</Data></Cell>
+      <Cell><Data ss:Type="String">Address</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Danh sách xe</Data></Cell>
+      <Cell><Data ss:Type="String">List of cars</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Danh sách tài xế</Data></Cell>
+      <Cell><Data ss:Type="String">List of drivers</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Danh sách xe và tài xế</Data></Cell>
+      <Cell><Data ss:Type="String">List of cars and drivers</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">THÔNG TIN XE</Data></Cell>
+      <Cell><Data ss:Type="String">Car information</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãng sản xuất</Data></Cell>
+      <Cell><Data ss:Type="String">Producer</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Loại xe</Data></Cell>
+      <Cell><Data ss:Type="String">Type of car</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Số chỗ</Data></Cell>
+      <Cell><Data ss:Type="String">Number of seats</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Năm sản xuất</Data></Cell>
+      <Cell><Data ss:Type="String">Manufacture year</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Biển số</Data></Cell>
+      <Cell><Data ss:Type="String">License plate</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Xuất xứ</Data></Cell>
+      <Cell><Data ss:Type="String">Origin</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thông tin khách hàng</Data></Cell>
+      <Cell><Data ss:Type="String">Customer information</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Họ và tên</Data></Cell>
+      <Cell><Data ss:Type="String">Full name</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Số điện thoại</Data></Cell>
+      <Cell><Data ss:Type="String">Phone number</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Xe sử dụng</Data></Cell>
+      <Cell><Data ss:Type="String">Current car</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Xuất xứ</Data></Cell>
+      <Cell><Data ss:Type="String">Origin</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Biến số xe</Data></Cell>
+      <Cell><Data ss:Type="String">License plate</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Trạng thái hành trình</Data></Cell>
+      <Cell><Data ss:Type="String">Trip status</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Trạng thái</Data></Cell>
+      <Cell><Data ss:Type="String">Status</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thời gian kết thúc</Data></Cell>
+      <Cell><Data ss:Type="String">End time</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Số xe</Data></Cell>
+      <Cell><Data ss:Type="String">Number of cars</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy nhập số lượng xe bạn muốn đặt</Data></Cell>
+      <Cell><Data ss:Type="String">Please enter number of cars you want to book</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Số xe phải là số nguyên dương lớn hơn 0 và nhỏ hơn 200. Hãy liên hệ trực tiếp khi đặt số lượng lớn hơn 200</Data></Cell>
+      <Cell><Data ss:Type="String">Number of cars must range from 1 to 200. If you want to book for more than 200 cars, please contact us directly</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy điền tên người đặt xe</Data></Cell>
+      <Cell><Data ss:Type="String">Please enter the name of the booking person</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy điền số điện thoại liên hệ</Data></Cell>
+      <Cell><Data ss:Type="String">Please enter your phone number</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy điền email liên hệ của bạn</Data></Cell>
+      <Cell><Data ss:Type="String">Please enter your email</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Số điện thoại liên hệ không hợp lệ</Data></Cell>
+      <Cell><Data ss:Type="String">Invalid phone number</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Sai định dạng email</Data></Cell>
+      <Cell><Data ss:Type="String">Incorrect email</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đặt xe thành công</Data></Cell>
+      <Cell><Data ss:Type="String">Booking successful</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chuyến đi của bạn đã được đăng ký</Data></Cell>
+      <Cell><Data ss:Type="String">Your trip has been registered</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thông báo</Data></Cell>
+      <Cell><Data ss:Type="String">Notice</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">XÁC NHẬN</Data></Cell>
+      <Cell><Data ss:Type="String">Confirm</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Nhập mã xác thực</Data></Cell>
+      <Cell><Data ss:Type="String">Enter the confirmation code</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">XÁC THỰC TÀI KHOẢN</Data></Cell>
+      <Cell><Data ss:Type="String">Verify the account</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">GỬI LẠI MÃ XÁC NHẬN</Data></Cell>
+      <Cell><Data ss:Type="String">Resend the confirmation code</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy điền mật khẩu của bạn</Data></Cell>
+      <Cell><Data ss:Type="String">Enter the password</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy nhập mã xác thực của bạn</Data></Cell>
+      <Cell><Data ss:Type="String">Enter the confirmation code</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Mô tả thông tin</Data></Cell>
+      <Cell><Data ss:Type="String">Description information</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đăng xuất thành công.</Data></Cell>
+      <Cell><Data ss:Type="String">Log out successfully</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">GỬI SỐ ĐIỆN THOẠI</Data></Cell>
+      <Cell><Data ss:Type="String">Send phone number</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">LƯU THAY ĐỔI</Data></Cell>
+      <Cell><Data ss:Type="String">Save changes</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Giờ khởi hành</Data></Cell>
+      <Cell><Data ss:Type="String">Departure time</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s20"><Data ss:Type="String">Đơn vị chào giá</Data></Cell>
+      <Cell><Data ss:Type="String">bidder</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">THAY ĐỔI MẬT KHẨU</Data></Cell>
+      <Cell><Data ss:Type="String">CHANGE PASSWORD</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thay đổi mật khẩu</Data></Cell>
+      <Cell><Data ss:Type="String">Change password</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Mật khẩu cũ</Data></Cell>
+      <Cell><Data ss:Type="String">Old password  </Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Mật khẩu mới</Data></Cell>
+      <Cell><Data ss:Type="String">New password  </Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Loại</Data></Cell>
+      <Cell><Data ss:Type="String">Remove</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thông báo</Data></Cell>
+      <Cell><Data ss:Type="String">Notice</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đã gửi mã xác nhận</Data></Cell>
+      <Cell><Data ss:Type="String">Confirmation sent</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Tài khoản đã được xác thực thành công</Data></Cell>
+      <Cell><Data ss:Type="String">Account has been successfully confirmed</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chuyến sắp đi</Data></Cell>
+      <Cell><Data ss:Type="String">My next trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">CHUYẾN SẮP ĐI</Data></Cell>
+      <Cell><Data ss:Type="String">MY NEXT TRIP</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thay đổi mật khẩu thất bại</Data></Cell>
+      <Cell><Data ss:Type="String">Failed to change password</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Lấy lại mật khẩu</Data></Cell>
+      <Cell><Data ss:Type="String">Reset password</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn thực hiện thao tác gửi quá nhanh</Data></Cell>
+      <Cell><Data ss:Type="String">You are sending too fast</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đăng xuất thất bại</Data></Cell>
+      <Cell><Data ss:Type="String">Logout failed</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thông tin khách hàng</Data></Cell>
+      <Cell><Data ss:Type="String">Customer information</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đặt Giá</Data></Cell>
+      <Cell><Data ss:Type="String">Bid </Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Danh sách các xe và tài xế</Data></Cell>
+      <Cell><Data ss:Type="String">List of cars and drivers</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">CẬP NHẬT</Data></Cell>
+      <Cell><Data ss:Type="String">Update</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Tài xế</Data></Cell>
+      <Cell><Data ss:Type="String">Driver</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">biển số xe</Data></Cell>
+      <Cell><Data ss:Type="String">License plate</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chọn xe và tài xế cho chuyến đi này</Data></Cell>
+      <Cell><Data ss:Type="String">Choose car and driver for this trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đường truyền có vấn đề, hãy thử lại sau 30s</Data></Cell>
+      <Cell><Data ss:Type="String">Network connection failed, please try again in 30s</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Giá tiền</Data></Cell>
+      <Cell><Data ss:Type="String">Price</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s20"><Data ss:Type="String">Số chuyến còn/ chuyến sắp đi</Data></Cell>
+      <Cell><Data ss:Type="String">Remaining trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">THAY ĐỔI</Data></Cell>
+      <Cell><Data ss:Type="String">Changes </Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thay đổi tên tài khoản</Data></Cell>
+      <Cell><Data ss:Type="String">Change  account name</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thay đổi số điện thoại</Data></Cell>
+      <Cell><Data ss:Type="String">Change  phone number</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thay đổi tên công ty</Data></Cell>
+      <Cell><Data ss:Type="String">Change  company name</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thay đổi địa chỉ</Data></Cell>
+      <Cell><Data ss:Type="String">Change  address</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thay đổi Email</Data></Cell>
+      <Cell><Data ss:Type="String">Change email</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thay đổi người liên lạc</Data></Cell>
+      <Cell><Data ss:Type="String">Change contact person</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thay đổi mô tả</Data></Cell>
+      <Cell><Data ss:Type="String">Change description</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s20"><Data ss:Type="String">Thông tin nhập</Data></Cell>
+      <Cell><Data ss:Type="String">Information</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Điểm đầu</Data></Cell>
+      <Cell><Data ss:Type="String">Starting point</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Điểm cuối</Data></Cell>
+      <Cell><Data ss:Type="String">Final destination</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Điểm tiếp theo</Data></Cell>
+      <Cell><Data ss:Type="String">Next destination</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chi tiết gói đặt giá</Data></Cell>
+      <Cell><Data ss:Type="String">Bidding package detail</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn chưa có chuyến đi nào</Data></Cell>
+      <Cell><Data ss:Type="String">You haven't had any trips yet</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Trạng thái</Data></Cell>
+      <Cell><Data ss:Type="String">Status</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">ĐÃ XÁC THỰC</Data></Cell>
+      <Cell><Data ss:Type="String">Verified</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Không có dữ liệu</Data></Cell>
+      <Cell><Data ss:Type="String">No data</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Ngày</Data></Cell>
+      <Cell><Data ss:Type="String">Date</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">xe</Data></Cell>
+      <Cell><Data ss:Type="String">Car  </Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chỗ</Data></Cell>
+      <Cell><Data ss:Type="String">Seat</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Km</Data></Cell>
+      <Cell><Data ss:Type="String">Km</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s23"><Data ss:Type="String">Giá định đặt giá/ 1 xe</Data></Cell>
+      <Cell><Data ss:Type="String">Price range/1 car</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s20"><Data ss:Type="String">Số xe/ Biển kiểm soát</Data></Cell>
+      <Cell ss:StyleID="s22"><Data ss:Type="String">License plate</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">ĐẶT GIÁ</Data></Cell>
+      <Cell><Data ss:Type="String">Bid</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn để trống trường nhập liệu.</Data></Cell>
+      <Cell><Data ss:Type="String">You have a blank field</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s25"><Data ss:Type="String">Đặt giá thành công</Data></Cell>
+      <Cell><Data ss:Type="String">Bidding successful</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s25"><Data ss:Type="String">Đặt giá thất bại</Data></Cell>
+      <Cell><Data ss:Type="String">Bidding failed</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chưa xác thực</Data></Cell>
+      <Cell><Data ss:Type="String">Unconfirmed</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đã đủ tài xế cho chuyến đi này</Data></Cell>
+      <Cell><Data ss:Type="String">Enough drivers for this trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đã đủ xe cho chuyến đi này</Data></Cell>
+      <Cell><Data ss:Type="String">Enough cars for this trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãng sản xuất </Data></Cell>
+      <Cell><Data ss:Type="String">Manufaturer</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chọn tài xế cho chuyến đi này</Data></Cell>
+      <Cell><Data ss:Type="String">Select driver for this trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chọn xe cho chuyến đi này</Data></Cell>
+      <Cell><Data ss:Type="String">Select car for this trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chọn lái xe cho chuyến đi</Data></Cell>
+      <Cell><Data ss:Type="String">Select driver for the trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chọn xe cho chuyến đi này</Data></Cell>
+      <Cell><Data ss:Type="String">Select car for this trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Số điện thoại</Data></Cell>
+      <Cell><Data ss:Type="String">Phone number</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Nhập mật khẩu chưa trùng nhau</Data></Cell>
+      <Cell><Data ss:Type="String">Password confirmation does not match password</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">VNĐ/xe</Data></Cell>
+      <Cell><Data ss:Type="String">VND/car</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chọn nhà vận tải thành công, hãy chờ phản hồi từ nhà vận tải</Data></Cell>
+      <Cell><Data ss:Type="String">Successfully choosing the transport agency, please wait for reply from transport agency</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Tên gói</Data></Cell>
+      <Cell><Data ss:Type="String">Package name</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Mô tả chuyến đi</Data></Cell>
+      <Cell><Data ss:Type="String">Trip description</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s26"><Data ss:Type="String">Không lặp lại</Data></Cell>
+      <Cell><Data ss:Type="String">Don't repeat </Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">XÁC NHẬN</Data></Cell>
+      <Cell><Data ss:Type="String">Confirm</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s23"><Data ss:Type="String">Chọn ngày lặp lại</Data></Cell>
+      <Cell><Data ss:Type="String">Choose repeating day</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s20"><Data ss:Type="String">Hãy nhập tên gói đặt giá</Data></Cell>
+      <Cell><Data ss:Type="String">Please enter the name of the package</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy nhập mô tả</Data></Cell>
+      <Cell><Data ss:Type="String">Please add a description</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Ứng dụng cần được cho phép quyền truy cập</Data></Cell>
+      <Cell><Data ss:Type="String">The application needs access permission</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Cập nhật thành công</Data></Cell>
+      <Cell><Data ss:Type="String">Updated successfully</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn có chắc muốn đăng xuất</Data></Cell>
+      <Cell><Data ss:Type="String">Are you sure you want to log out?</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn đã từ chối ứng dụng quyền truy cập CAMERA, không thể chụp ảnh mới</Data></Cell>
+      <Cell><Data ss:Type="String">You have denied access to CAMERA, uanble to take a new photo</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Cập nhật số điện thoại</Data></Cell>
+      <Cell><Data ss:Type="String">Update phone number</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Nhập số điện thoại của bạn</Data></Cell>
+      <Cell><Data ss:Type="String">Enter your phone number</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy nhập mã xác nhận</Data></Cell>
+      <Cell><Data ss:Type="String">Enter the confirmation code</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Mã xác thực k hợp lệ</Data></Cell>
+      <Cell><Data ss:Type="String">Invalid confirmation code</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Dịch vụ Google play không được hỗ trợ trên thiết bị của bạn. Một số chức năng có thể không hoạt động.</Data></Cell>
+      <Cell><Data ss:Type="String">Google play is not supported by your device. Some functions might not work. </Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">trường dữ liệu để trống.</Data></Cell>
+      <Cell><Data ss:Type="String">The field is blank</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">trường dữ liệu ít hơn 2 kí tự.</Data></Cell>
+      <Cell><Data ss:Type="String">The field is less than 2 characteres</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Không thể đặt thời gian trong quá khứ</Data></Cell>
+      <Cell><Data ss:Type="String">Unable to set the time in the past</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn đã đăng ký thành công gói đặt xe </Data></Cell>
+      <Cell><Data ss:Type="String">You have successfully registered the booking package</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn đã cập nhật thông tin cho gói đặt xe</Data></Cell>
+      <Cell><Data ss:Type="String">You have successfully updated the booking package</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">thành công</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">gói đặt xe của bạn đang chờ được kiểm duyệt</Data></Cell>
+      <Cell><Data ss:Type="String">Your bidding package is pending</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Có tài xế đã nhận gói đặt xe của bạn</Data></Cell>
+      <Cell><Data ss:Type="String">A driver has  accepted your bidding package</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Có nhà vận tải đã gửi gói đặt giá đến cho bạn</Data></Cell>
+      <Cell><Data ss:Type="String">A transport agency has sent you a bidding package</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Nhà vận tải đã xác nhận gói đặt giá của bạn</Data></Cell>
+      <Cell><Data ss:Type="String">The transporter has confirmed your bidding package</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn đã chọn gói đặt giá của nhà vận tải thành công, chờ xác nhận của nhà vận tải một lần nữa</Data></Cell>
+      <Cell><Data ss:Type="String">You have successfully selected a bidding package, please wait for confirmation from transport agency</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Tài xế sắp đến đón bạn</Data></Cell>
+      <Cell><Data ss:Type="String">Your driver is on the way</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chúc bạn có một chuyến đi vui vẻ, thượng lộ bình an</Data></Cell>
+      <Cell><Data ss:Type="String">Bon voyage / Have a nice trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn nhận được một chuyến đi mới</Data></Cell>
+      <Cell><Data ss:Type="String">You received a new trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chấp nhận chuyến đi thành công</Data></Cell>
+      <Cell><Data ss:Type="String">Accepting the trip successfully</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Sắp đến giờ đón khách</Data></Cell>
+      <Cell><Data ss:Type="String">It's time for customer pick-up</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Người dùng hủy chuyến</Data></Cell>
+      <Cell><Data ss:Type="String">Customer cancels the trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hành khách chọn gói đặt giá của công ty bạn</Data></Cell>
+      <Cell><Data ss:Type="String">Customer has chosen your bidding package</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đặt giá thành công</Data></Cell>
+      <Cell><Data ss:Type="String">Bidding successfully</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chưa có nhà vận tải nào tham gia</Data></Cell>
+      <Cell><Data ss:Type="String">No transport agency shown yet</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Số xe</Data></Cell>
+      <Cell><Data ss:Type="String">Number of car</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Khoảng cách</Data></Cell>
+      <Cell><Data ss:Type="String">Distance</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy đánh giá chuyến đi của bạn</Data></Cell>
+      <Cell><Data ss:Type="String">Please rate your trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn đã hủy thành công chuyến đi</Data></Cell>
+      <Cell><Data ss:Type="String">You have successfully cancelled the trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Tự lái</Data></Cell>
+      <Cell><Data ss:Type="String">Self-drive</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chuyến tự lái</Data></Cell>
+      <Cell><Data ss:Type="String">Self-drive trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn đặt nhiều hơn số xe quy định</Data></Cell>
+      <Cell><Data ss:Type="String">You have exceeded car number limit</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn chưa xếp xe cho chuyến đi này</Data></Cell>
+      <Cell><Data ss:Type="String">You haven't arranged car for this trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chuyến đi đã hoàn thành</Data></Cell>
+      <Cell><Data ss:Type="String">Completed trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn đã hoàn thành gói đặt xe</Data></Cell>
+      <Cell><Data ss:Type="String">You have completed the booking</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đang đặt giá</Data></Cell>
+      <Cell><Data ss:Type="String">Bidding  </Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thông tin đặt giá</Data></Cell>
+      <Cell><Data ss:Type="String">Bidding information</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn có chắc chắn sử dụng số điện thoại này</Data></Cell>
+      <Cell><Data ss:Type="String">Are you sure you use this phone number?</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chưa đặt xe</Data></Cell>
+      <Cell><Data ss:Type="String">No car booked </Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn không đặt giá được với gói đặt giá này</Data></Cell>
+      <Cell><Data ss:Type="String"> You are unable to bid with this bidding price</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đánh giá</Data></Cell>
+      <Cell><Data ss:Type="String">Review</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Loại xe</Data></Cell>
+      <Cell><Data ss:Type="String">Types of car</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Số lượng xe</Data></Cell>
+      <Cell><Data ss:Type="String">Number of car</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đã kết thúc</Data></Cell>
+      <Cell><Data ss:Type="String">Finished </Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Cập nhật xe thất bại</Data></Cell>
+      <Cell><Data ss:Type="String">Car update failed</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Không xác định</Data></Cell>
+      <Cell><Data ss:Type="String">N/A</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Có gói đặt giá mới phù hợp với công ty bạn</Data></Cell>
+      <Cell><Data ss:Type="String">There is a new bidding package suitable for your company </Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s20"><Data ss:Type="String">Chưa chọn xe nào để cập nhật</Data></Cell>
+      <Cell><Data ss:Type="String">No car chosen for update</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Không xác định</Data></Cell>
+      <Cell><Data ss:Type="String">N/A</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s20"><Data ss:Type="String">Không Có</Data></Cell>
+      <Cell><Data ss:Type="String">No results</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thứ</Data></Cell>
+      <Cell><Data ss:Type="String">Date</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">CN</Data></Cell>
+      <Cell><Data ss:Type="String">Sunday</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hàng Ngày</Data></Cell>
+      <Cell><Data ss:Type="String">Daily</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Giá đặt giá không thể nhỏ hơn 1 nghìn đồng.</Data></Cell>
+      <Cell><Data ss:Type="String">Bidding price could not be smaller than 1000 VND</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thử lại ???</Data></Cell>
+      <Cell><Data ss:Type="String">Try again</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Trạng thái</Data></Cell>
+      <Cell><Data ss:Type="String">Status</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Tài xế đang trên đường tới đón bạn</Data></Cell>
+      <Cell><Data ss:Type="String">Your driver are on the way</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Giá tiền</Data></Cell>
+      <Cell><Data ss:Type="String">Price</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy đăng nhập lại</Data></Cell>
+      <Cell><Data ss:Type="String">Please log in again</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Nhập mật khẩu</Data></Cell>
+      <Cell><Data ss:Type="String">Enter the password</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Nhập lại mật khẩu</Data></Cell>
+      <Cell><Data ss:Type="String">Re-enter the password</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy lại mật khẩu của bạn</Data></Cell>
+      <Cell><Data ss:Type="String">Please re-enter the password</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Mật khẩu bạn nhập lại không khớp với mật khẩu trước</Data></Cell>
+      <Cell><Data ss:Type="String">Your password confirmation doesn't match your password</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Cảm ơn bạn đã sử dụng GoNow</Data></Cell>
+      <Cell><Data ss:Type="String">Thank you for using GoNow</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Xin lỗi vì sự bất tiện này, đã có sự cố xảy ra, chúng tôi không thể lấy dữ liệu, vui lòng kiểm tra lại kết nối internet!!!</Data></Cell>
+      <Cell><Data ss:Type="String">Sorry for this inconvenience! Something went wrong. We cannot get the data, please check your network connection.</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Rất tiết, chúng tôi không tìm thấy dữ liệu mà bạn muốn!!!</Data></Cell>
+      <Cell><Data ss:Type="String">Sorry! We could not find the data you want</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Cập nhật thất bại</Data></Cell>
+      <Cell><Data ss:Type="String">Update failed</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Cập nhật thành công</Data></Cell>
+      <Cell><Data ss:Type="String">Update successful</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Điểm đón</Data></Cell>
+      <Cell><Data ss:Type="String">Pick-up point</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đang chờ đón khách</Data></Cell>
+      <Cell><Data ss:Type="String">Waiting for customer pick-up</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đang đến đón khách</Data></Cell>
+      <Cell><Data ss:Type="String">On the way for customer pick-up</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bắt đầu chuyến đi</Data></Cell>
+      <Cell><Data ss:Type="String">Start the trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đã hoàn thành chuyến</Data></Cell>
+      <Cell><Data ss:Type="String">Trip finished</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Vị trí của khách hàng</Data></Cell>
+      <Cell><Data ss:Type="String">Customer location</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Tài xế</Data></Cell>
+      <Cell><Data ss:Type="String">Driver</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Xác nhận thành công</Data></Cell>
+      <Cell><Data ss:Type="String">Confirmed successfully</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đã có người nhận chuyến này</Data></Cell>
+      <Cell><Data ss:Type="String">This trip has been assumed</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Xe của bạn không phù hợp với chuyến đi này</Data></Cell>
+      <Cell><Data ss:Type="String">Your car doen't suit this trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn chưa nhập nội dung gì</Data></Cell>
+      <Cell><Data ss:Type="String">You haven't enter anything</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đánh giá khách hàng</Data></Cell>
+      <Cell><Data ss:Type="String">Customer review</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Rất không hài lòng</Data></Cell>
+      <Cell><Data ss:Type="String">Very dissatisfied</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Không hài lòng</Data></Cell>
+      <Cell><Data ss:Type="String">Dissatisfied</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bình thường</Data></Cell>
+      <Cell><Data ss:Type="String">Neutral</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hài lòng</Data></Cell>
+      <Cell><Data ss:Type="String">Satisfied</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Rất hài lòng</Data></Cell>
+      <Cell><Data ss:Type="String">Very satisfied</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Cảm ơn bạn đã đánh giá</Data></Cell>
+      <Cell><Data ss:Type="String">Thank you for your review</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đánh giá khách hàng</Data></Cell>
+      <Cell><Data ss:Type="String">Customer review</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chuyến được chi định</Data></Cell>
+      <Cell><Data ss:Type="String">Appointed trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đang tải...</Data></Cell>
+      <Cell><Data ss:Type="String">Loading</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Không có số điện thoại</Data></Cell>
+      <Cell><Data ss:Type="String">No phone number found</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s23"><Data ss:Type="String">Rất tiết, chúng tôi không tìm thấy thông tin khách hàng đặt chuyến xe</Data></Cell>
+      <Cell><Data ss:Type="String">Sorry, we couldnot find customer's information</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Rất tiết, chúng tôi không tìm thấy thông tin phương tiện</Data></Cell>
+      <Cell><Data ss:Type="String">Sorry, we couldn't find any vehicles</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chuyến định kỳ</Data></Cell>
+      <Cell><Data ss:Type="String">Regular trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Cập nhật tên tài xế</Data></Cell>
+      <Cell><Data ss:Type="String">Update driver name</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Cập nhật số điện thoại</Data></Cell>
+      <Cell><Data ss:Type="String">Update phone number</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Cập nhật địa chỉ</Data></Cell>
+      <Cell><Data ss:Type="String">Update address</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Cập nhật tên công ty</Data></Cell>
+      <Cell><Data ss:Type="String">Update company name</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Vô thời hạn</Data></Cell>
+      <Cell><Data ss:Type="String">Open-ended</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Cập nhật ảnh đại diện thất bại</Data></Cell>
+      <Cell><Data ss:Type="String">Update profile picture failed</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Ảnh không được tìm thấy</Data></Cell>
+      <Cell><Data ss:Type="String">Unable to find picture</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Ấn nhầm</Data></Cell>
+      <Cell><Data ss:Type="String">Misclick</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Vui lòng bật GPS</Data></Cell>
+      <Cell><Data ss:Type="String">Please enable GPS</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Có</Data></Cell>
+      <Cell><Data ss:Type="String">Yes</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Không</Data></Cell>
+      <Cell><Data ss:Type="String">No</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Nội dung đánh giá</Data></Cell>
+      <Cell><Data ss:Type="String">Rating criteria</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s23"><Data ss:Type="String">Số tiền thu từ khách hàng</Data></Cell>
+      <Cell><Data ss:Type="String">Revenue from customers</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Số tiền bạn nhận được</Data></Cell>
+      <Cell><Data ss:Type="String">Amount you receive</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Xác nhận</Data></Cell>
+      <Cell><Data ss:Type="String">Confirm</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bỏ qua</Data></Cell>
+      <Cell><Data ss:Type="String">Skip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn chưa cấp quyền đọc tập tin</Data></Cell>
+      <Cell><Data ss:Type="String">You need permission to read this file</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chưa có tài xế</Data></Cell>
+      <Cell><Data ss:Type="String">No driver </Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Xe chưa được cập nhật tên</Data></Cell>
+      <Cell><Data ss:Type="String">Car name hasn't been updated</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Xe chưa được cập nhật xuất xứ</Data></Cell>
+      <Cell><Data ss:Type="String">Car origin hasn't been updated</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Xe chưa được cập nhật biển số</Data></Cell>
+      <Cell><Data ss:Type="String">License plate hasn't been updated</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Không thể đặt chỉ với một điểm đón</Data></Cell>
+      <Cell><Data ss:Type="String">Unable to book with only one pick-up point</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Tài khoản</Data></Cell>
+      <Cell><Data ss:Type="String">Account  </Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">không có provider</Data></Cell>
+      <Cell><Data ss:Type="String">No provider</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">service không có sẵn</Data></Cell>
+      <Cell><Data ss:Type="String">Unavailale service</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Tọa độ không hợp lệ</Data></Cell>
+      <Cell><Data ss:Type="String">Invalid coordinate</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Không tìm thấy địa chỉ</Data></Cell>
+      <Cell><Data ss:Type="String">Can't find address</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Tìm thấy địa chỉ</Data></Cell>
+      <Cell><Data ss:Type="String"> Address found</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn đã hết hạn chuyến đi </Data></Cell>
+      <Cell><Data ss:Type="String">Your trip is expired</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thao tác quá nhanh</Data></Cell>
+      <Cell><Data ss:Type="String">Your actions are too fast</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">GPS Không khả dụng</Data></Cell>
+      <Cell><Data ss:Type="String">Unavailale GPS</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy bật GPS để sử dụng chức năng này</Data></Cell>
+      <Cell><Data ss:Type="String">Please enable GPS  to use this function</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Đang xử lý</Data></Cell>
+      <Cell><Data ss:Type="String">Processing</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s23"><Data ss:Type="String">Hãy nhập điểm đón trước</Data></Cell>
+      <Cell><Data ss:Type="String">Please enter a pick-up point before the ride</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy điền điểm đón đầu tiên</Data></Cell>
+      <Cell><Data ss:Type="String">Please enter first pick-up point</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Không thể đặt 2 điểm đón liên tiếp cùng 1 vị trí</Data></Cell>
+      <Cell><Data ss:Type="String">Unable to book 2 consecutive pick-up points at the same location</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn hãy nhập lộ trình</Data></Cell>
+      <Cell><Data ss:Type="String">Please enter the route</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hệ thống đã gửi mã xác nhận đến số điện thoại bạn cung cấp</Data></Cell>
+      <Cell><Data ss:Type="String">The system has sent you the confirmation code</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Mật khẩu chỉ từ 6 đến 15 kí tự</Data></Cell>
+      <Cell><Data ss:Type="String">Password from 6 to 15 characters</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn đã đăng kí thành công gói đặt giá</Data></Cell>
+      <Cell><Data ss:Type="String">You have successfully registered the bidding package</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Không đủ xe để đặt giá cho chuyến đi.</Data></Cell>
+      <Cell><Data ss:Type="String">Not enough cars to bid for the trip</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy cập nhật số điện thoại để sử dụng chức năng này</Data></Cell>
+      <Cell><Data ss:Type="String">Please update phone number to use this feature</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">THOÁT</Data></Cell>
+      <Cell><Data ss:Type="String">Exit</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy đăng nhập để sử dụng chức năng này</Data></Cell>
+      <Cell><Data ss:Type="String">Please login  to use this feature</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thời gian kết thúc đặt giá</Data></Cell>
+      <Cell><Data ss:Type="String">Bid time</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thời gian bắt đầu</Data></Cell>
+      <Cell><Data ss:Type="String">Starting time</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Tên đăng nhập</Data></Cell>
+      <Cell><Data ss:Type="String">Username</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thông tin tài khoản</Data></Cell>
+      <Cell><Data ss:Type="String">Account information</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Không lặp lại</Data></Cell>
+      <Cell><Data ss:Type="String">Do not repeat</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Hãy đăng nhập để tiếp tục sử dụng GoNow</Data></Cell>
+      <Cell><Data ss:Type="String">Please login to continue using Gonow</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thời gian</Data></Cell>
+      <Cell><Data ss:Type="String">Time  </Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn chưa nhập số điện thoại hoặc email</Data></Cell>
+      <Cell><Data ss:Type="String">You haven't entered phone number or email</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Email không đúng</Data></Cell>
+      <Cell><Data ss:Type="String">Incorrect email</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Số điện thoại không đúng</Data></Cell>
+      <Cell><Data ss:Type="String">Incorrect phone number</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn chưa nhập mật khẩu!</Data></Cell>
+      <Cell><Data ss:Type="String">You haven't entered a password</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Tài khoản không có quyền</Data></Cell>
+      <Cell><Data ss:Type="String">The account has no right</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Tài khoản không tồn tại trong hệ thống</Data></Cell>
+      <Cell><Data ss:Type="String">The account doesn't exist in the system</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Tài khoản đăng quá số lượng cho phép</Data></Cell>
+      <Cell><Data ss:Type="String">The account has exceeded its posting limit</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Số điện thoại không tồn tại</Data></Cell>
+      <Cell><Data ss:Type="String">Phone number doesn't exist</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Ngày sinh không đúng</Data></Cell>
+      <Cell><Data ss:Type="String">Incorrect birthday</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Mật khẩu nhập lại không đúng</Data></Cell>
+      <Cell><Data ss:Type="String">Re-entered password is wrong</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Mật khẩu quá yếu</Data></Cell>
+      <Cell><Data ss:Type="String">Password is too weak</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chưa nhập họ tên</Data></Cell>
+      <Cell><Data ss:Type="String">Your name hasn't been entered</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chưa nhập mật khẩu</Data></Cell>
+      <Cell><Data ss:Type="String">Your password hasn't been entered</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chưa nhập email hoặc số điện thoại</Data></Cell>
+      <Cell><Data ss:Type="String">Email or phonenumber hasn't been entered</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chưa nhập mật khẩu</Data></Cell>
+      <Cell><Data ss:Type="String">Your password hasn't been entered</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn chưa đồng ý với điều khoản của công ty</Data></Cell>
+      <Cell><Data ss:Type="String">You haven't agreed to the terms of the company</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn đang thao tác quá nhanh, hãy thử lại sau ít phút</Data></Cell>
+      <Cell><Data ss:Type="String">Your actions are too fast, please try again in a few minutes</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn chưa nhập mã xác nhận</Data></Cell>
+      <Cell><Data ss:Type="String">You haven't entered the confirmation code</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Mã xác nhận của bạn không đúng(mỗi mã xác nhận chỉ có giá trị trong 5 phút)</Data></Cell>
+      <Cell><Data ss:Type="String">Your confirmation code is incorrect (each confirmation code is only valid for 5 minutes)</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Mã xác nhận của bạn không đúng</Data></Cell>
+      <Cell><Data ss:Type="String">Your confirmation code is incorrect </Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chưa nhập mã vùng</Data></Cell>
+      <Cell><Data ss:Type="String">You haven't entered the area code</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Số điện thoại đã được sử dụng</Data></Cell>
+      <Cell><Data ss:Type="String">Phone number has been used</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Số điện thoại đã được xác thực</Data></Cell>
+      <Cell><Data ss:Type="String">The phone number has been verified</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Số điện thoại không đúng</Data></Cell>
+      <Cell><Data ss:Type="String">Incorrect phone number</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chưa nhập mật khẩu</Data></Cell>
+      <Cell><Data ss:Type="String">You haven't entered the password</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Mật khẩu không đúng</Data></Cell>
+      <Cell><Data ss:Type="String">Incorrect password</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Mã xác nhận của bạn không đúng</Data></Cell>
+      <Cell><Data ss:Type="String">Incorrect confirmation code</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Số điện thoại chưa được đăng ký</Data></Cell>
+      <Cell><Data ss:Type="String">Unregistered phone number</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Mật khẩu cũ không đúng</Data></Cell>
+      <Cell><Data ss:Type="String">Incorrect old password</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chưa nhập mật khẩu cũ</Data></Cell>
+      <Cell><Data ss:Type="String">Old password hasn't been entered</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Mật khẩu mới phải dài trên 6 ký tự</Data></Cell>
+      <Cell><Data ss:Type="String">New password must be longer than 6 characters</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Mật khẩu mới phải dài trên 6 ký tự</Data></Cell>
+      <Cell><Data ss:Type="String">New password must be longer than 6 characters</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Mật khẩu nhập lại trống</Data></Cell>
+      <Cell><Data ss:Type="String">Re-entered password is blank</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Mật khẩu mới phải dài trên 6 ký tự</Data></Cell>
+      <Cell><Data ss:Type="String">New password must be longer than 6 characters</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Mật khẩu nhập lại không trùng</Data></Cell>
+      <Cell><Data ss:Type="String">Password confirmation doesn't match your password</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Chưa nhập mật khẩu mới</Data></Cell>
+      <Cell><Data ss:Type="String">New password hasn't been entered</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Tài khoản không đúng</Data></Cell>
+      <Cell><Data ss:Type="String">Incorrect account</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Bạn đang thao tác gửi tin nhắn quá nhiều, hãy thử lại sau ít phút</Data></Cell>
+      <Cell><Data ss:Type="String">You are sending too much messages, please try again later</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Gửi mã xác nhận thất bại</Data></Cell>
+      <Cell><Data ss:Type="String">Sending confirmation code failed</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Email đã được đăng ký</Data></Cell>
+      <Cell><Data ss:Type="String">This email has been already registered</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Email không tồn tại</Data></Cell>
+      <Cell><Data ss:Type="String">Email doesn't exist</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Email chưa được đăng ký</Data></Cell>
+      <Cell><Data ss:Type="String">Unregistered email</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Tên hiển thị không để trống</Data></Cell>
+      <Cell><Data ss:Type="String">Display name is blank</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Thông tin ảnh bị lỗi</Data></Cell>
+      <Cell><Data ss:Type="String">Error in photo information</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">File up lên không phải là ảnh.</Data></Cell>
+      <Cell><Data ss:Type="String">Uploaded file is not a photo</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Ảnh chứa nội dung không lành mạnh.</Data></Cell>
+      <Cell><Data ss:Type="String">The photo contains inapproriate content</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Kích thước của ảnh vượt quá 5MB.</Data></Cell>
+      <Cell><Data ss:Type="String">Image size exceeds 5MB</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Người dùng không tồn tại</Data></Cell>
+      <Cell><Data ss:Type="String">User doesn't exist</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">Mật khẩu mới trùng với mật khẩu cũ. Vui lòng kiểm tra lại.</Data></Cell>
+      <Cell><Data ss:Type="String">New password is similiar to old password, please check again</Data></Cell>
+    </Row>
+    <Row>
+      <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String"> Gói đặt giá không còn tồn tại trên hệ thống.</Data></Cell>
+      <Cell><Data ss:Type="String">The bidding package is no longer available.</Data></Cell>
+    </Row>
+  </Table>
+</Worksheet>
+</Workbook>
